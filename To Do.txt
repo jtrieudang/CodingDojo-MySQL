@@ -1,0 +1,15 @@
+INSERT
+INSERT INTO tweets (tweet, user_id, created_at, updated_at)
+VALUES ("Cobe", 1, NOW(), NOW());
+------------------------------------------------------------------------
+SELECT
+SELECT tweets FROM tweets;
+------------------------------------------------------------------------
+UPDATE (no FROM)
+UPDATE users 
+SET last_name = "KOBE"
+WHERE id = 2;
+------------------------------------------------------------------------
+DELETE
+DELETE FROM tweets
+WHERE id = 5;
